@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a -p /home  .. /boot -l
+ls -a -p -l /home  .. /boot
