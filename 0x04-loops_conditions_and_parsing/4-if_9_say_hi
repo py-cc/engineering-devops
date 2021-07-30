@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Bash script that displays Holberton School 10 times. Print Hi for 9
+SCHOOL="Holberton School"
+COUNT=1
+while [ $COUNT -le 10 ]; do
+    echo "$SCHOOL"
+    if [ $COUNT == 9 ]; then
+	echo "Hi"
+    fi
+    COUNT=$((COUNT + 1))
+done
